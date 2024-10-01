@@ -1,0 +1,265 @@
+html, body{
+    margin: 0%;
+}
+.outline{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.logodiv{
+    width: 11%;
+    height: 26%;
+    position: absolute;
+    top: -4%;
+    left: -2%;
+    z-index: 2;
+}
+.logo{
+    filter: brightness(0) invert(1);
+    width: 100%;
+    height: 100%;
+    
+}
+.bar{
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgb(253, 24, 24);
+}
+.i{
+    width: 50%;
+    height: 220%;
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    z-index: 3;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    font-family: "Alegreya Sans SC";
+    position: absolute;
+    top: -17%;
+    font-size: 16em;
+    color: white;
+    left: 8%;
+    z-index: 2;
+}
+.blur1{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: red;
+    opacity: 0.3;
+    filter: blur(100px);
+}
+.blur2{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: red;
+    opacity: 0.3;
+    filter: blur(100px);
+}
+.blur3{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: red;
+    opacity: 0.3;
+    filter: blur(100px);
+}
+.goat{
+    font-size: 18em;
+    position: absolute;
+    bottom: -30%;
+    left: 25%;
+    opacity:0.2;
+    transform: scale(1.5,1);
+    color: transparent;
+    font-family: "Alegreya Sans Sc";
+    -webkit-text-stroke: 4px rgba(107, 2, 2, 0.521);
+}
+.g{
+    position: absolute;
+    right: 20%;
+    bottom: 2%;
+    font-size: 11em;
+    color:  rgba(156, 3, 3, 0.671);
+    font-family: "Black Ops One";
+    opacity: 0.3;
+}
+.o{
+    position: absolute;
+    right: 10%;
+    bottom: 2%;
+    font-size: 11em;
+    color: rgba(156, 3, 3, 0.671);
+    font-family: "Black Ops One";
+    opacity: 0.3;
+}
+.a{
+    position: absolute;
+    right: 20%;
+    bottom: -18%;
+    font-size: 11em;
+    color:rgba(156, 3, 3, 0.671);
+    font-family: "Black Ops One";
+    opacity: 0.3;
+}
+.t{
+    position: absolute;
+    right: 10%;
+    bottom: -18%;
+    font-size: 11em;
+    color: rgba(156, 3, 3, 0.671);
+    font-family: "Black Ops One";
+    opacity: 0.3;
+}
+.seven1{
+    position: absolute;
+    right: 30%;
+    bottom: -40%;
+    font-size: 20em;
+    color: rgba(156, 3, 3, 0.671);
+    font-family: "Black Ops One";
+    opacity: 0.3;
+}
+.g900{
+    font-size: 7vw;
+    position: absolute;
+    bottom: 18%;
+    left: 15%;
+    color: black;
+    font-family: "Righteous";
+
+}
+.gg{
+    font-size: 7vw;
+    position: absolute;
+    bottom: 6%;
+    left: 15%;
+    color: black;
+    font-family: "Righteous";
+
+}
+.plus{
+    font-size: 5vw;
+    position: absolute;
+    bottom: 29%;
+    left: 28%;
+    color: black;
+    font-family: "Alegreya Sans SC";
+}
+.c{
+    font-size: 6vw;
+    position: absolute;
+    left: 3%;
+    bottom: 27%;
+    font-family: "Goldman";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    opacity: 0.3;
+}
+.r{
+    font-size: 6vw;
+    position: absolute;
+    left: 3%;
+    bottom: 15%;
+    font-family: "Goldman";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    opacity: 0.3;
+}
+
+.seven{
+    font-size: 6vw;
+    position: absolute;
+    left: 3.5%;
+    bottom: 3%;
+    font-family: "Goldman";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    opacity: 0.3;
+}
+.line{
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+.one{
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 55%;
+    right: 3%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+}
+.two{
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 66%;
+    right: 3%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+}
+.three{
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 77%;
+    right: 3%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.2;
+}
+#insta{
+    color: white;
+    font-size: 3vw;    
+}
+#fb{
+    color: white;
+    font-size: 3vw; 
+}
+#x{
+    color: white;
+    font-size: 3vw; 
+}
+.one:hover,.two:hover,.three:hover{
+    opacity: 1;
+}
